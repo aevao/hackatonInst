@@ -1,11 +1,16 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 .container {
   width: 80%;
   margin: auto;
 }
 
 .post {
-  width: 80%;
+  width: 50%;
   margin: auto;
-  background-color: black;
-  height: 600px;
+  border-right: 1px solid #abaaaa;
+  border-left: 1px solid #abaaaa;
+  border-bottom: 1px solid #abaaaa;
 }

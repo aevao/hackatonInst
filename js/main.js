@@ -86,7 +86,7 @@ async function checkUser() {
   if (userActive) {
     // alert("yes");
     localStorage.setItem("test", signinLogin.value);
-    window.location.href = "./Inst.html";
+    window.location.href = "../html/twitter.html";
   } else {
     // alert("no");
     signinLogin.style.borderBottom = "2px solid red";

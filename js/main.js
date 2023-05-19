@@ -41,11 +41,9 @@ signUpBtn2.addEventListener("click", () => {
     password: signUpInpPassword.value,
     password2: signUpInpPassword2.value,
   };
+  localStorage.setItem("register", signUpInpLogin.value);
+  window.location.href = "../html/twitter.html";
   creatProduct(newUser);
-  signUpInpLogin.value = "";
-  signUpInpEmail.value = "";
-  signUpInpPassword.value = "";
-  signUpInpPassword2.value = "";
 });
 
 async function creatProduct(newUser) {

@@ -1,0 +1,11 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.post {
+  width: 80%;
+  margin: auto;
+  background-color: black;
+  height: 600px;
+}

@@ -97,6 +97,13 @@
       "password": "123",
       "password2": "123",
       "id": 17
+    },
+    {
+      "login": "diana2",
+      "email": "sadf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 18
     }
   ]
 }

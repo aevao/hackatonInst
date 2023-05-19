@@ -1,0 +1,102 @@
+{
+  "Registration": [
+    {
+      "login": "aevao",
+      "email": "sjkdf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 1
+    },
+    {
+      "login": "arslan",
+      "email": "at@gmail.com",
+      "password": "456",
+      "password2": "456",
+      "id": 2
+    },
+    {
+      "login": "samat",
+      "email": "samat2004@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 3
+    },
+    {
+      "login": "ramil",
+      "email": "ramil@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 4
+    },
+    {
+      "login": "Zazhigalka",
+      "email": "mamiev.sultan06@gmail.com",
+      "password": "1234567890",
+      "password2": "1234567890",
+      "id": 5
+    },
+    {
+      "login": "cholpon",
+      "email": "cholpon@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 9
+    },
+    {
+      "login": "rrd",
+      "email": "rrd@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 10
+    },
+    {
+      "login": "arslan",
+      "email": "evail@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 11
+    },
+    {
+      "login": "never ",
+      "email": "gonna@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 12
+    },
+    {
+      "login": "mirbek",
+      "email": "sadf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 13
+    },
+    {
+      "login": "lee",
+      "email": "lee@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 14
+    },
+    {
+      "login": "beks",
+      "email": "beks",
+      "password": "123",
+      "password2": "123",
+      "id": 15
+    },
+    {
+      "login": "samat",
+      "email": "samt@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 16
+    },
+    {
+      "login": "diana",
+      "email": "sdf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 17
+    }
+  ]
+}

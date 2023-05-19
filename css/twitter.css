@@ -1,0 +1,16 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.post {
+  width: 50%;
+  margin: auto;
+  border-right: 1px solid #abaaaa;
+  border-left: 1px solid #abaaaa;
+  border-bottom: 1px solid #abaaaa;
+}

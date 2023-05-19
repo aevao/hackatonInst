@@ -41,11 +41,16 @@ signUpBtn2.addEventListener("click", () => {
     password: signUpInpPassword.value,
     password2: signUpInpPassword2.value,
   };
-  localStorage.setItem("register", signUpInpLogin.value);
-  window.location.href = "../html/twitter.html";
   creatProduct(newUser);
-});
+  alert('Вы успешно Зарегестрировались, а теперь Войдите')
+  signUpInpLogin.value = ''
+  signUpInpEmail.value = ''
+  signUpInpPassword.value = ''
+  signUpInpPassword2.value = ''
 
+  formBox.classList.remove("active");
+  body.classList.remove("active");
+});
 async function creatProduct(newUser) {
   try {
     await fetch(API, {
@@ -68,26 +73,29 @@ van.addEventListener("click", checkUser);
 
 async function checkUser() {
   let users = await fetch(API).then((res) => res.json());
-
+  
   let userActive = false;
-
+  
   users.forEach((item) => {
     if (
       item.login === signinLogin.value &&
-      item.password === signinPassword.value
-    ) {
-      userActive = true;
-      return;
+      item.password === signinPassword.value 
+      ) {
+        userActive = true;
+        return;
+      }
+    });
+    
+    if (userActive) {
+      // alert("yes");
+      localStorage.setItem("test", signinLogin.value);
+      window.location.replace("../html/twitter.html");
+      // window.location.href = "../html/twitter.html";
+    } else {
+      // alert("no");
+      signinLogin.style.borderBottom = "2px solid red";
+      signinPassword.style.borderBottom = "2px solid red";
     }
-  });
-
-  if (userActive) {
-    // alert("yes");
-    localStorage.setItem("test", signinLogin.value);
-    window.location.href = "../html/twitter.html";
-  } else {
-    // alert("no");
-    signinLogin.style.borderBottom = "2px solid red";
-    signinPassword.style.borderBottom = "2px solid red";
   }
-}
+  
+  

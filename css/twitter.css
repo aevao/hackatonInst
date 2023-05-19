@@ -1,16 +1,61 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto&family=Ubuntu:wght@300&display=swap');");
+
 * {
   margin: 0%;
   padding: 0%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .container {
   width: 80%;
   margin: auto;
 }
 
-.post {
+.twitter__icon_img {
+  width: 40px;
+}
+
+.twitter__lenta {
+  display: flex;
+  align-items: center;
   width: 50%;
   margin: auto;
   border-right: 1px solid #abaaaa;
   border-left: 1px solid #abaaaa;
   border-bottom: 1px solid #abaaaa;
+}
+
+.twitter__lenta_title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+  align-items: center;
+}
+
+.twitter__lenta_h2 {
+  font-family: ;
+  margin-left: 2%;
+}
+
+.twitter__lenta_btn {
+  margin-right: 2%;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+}
+
+.twitter__lenta_btn:hover {
+  cursor: pointer;
+}
+
+.twitter__lenta_btn_bg {
+  width: 100%;
+}
+.post {
 }

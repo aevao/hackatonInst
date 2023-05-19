@@ -132,7 +132,7 @@ body.active {
 }
 
 .form__btn_signup {
-  background-color: red;
+  background-color: blue;
 }
 
 @media (max-width: 992px) {

@@ -4,6 +4,10 @@ const API = "http://localhost:8000/Post";
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
+ // Функция для переключения состояния кнопки "Лайк"
+
+let body = document.querySelector('body')
+likecouts = 0;
 
 // Функция для закрытия модального окна
 function closeModal() {
@@ -107,6 +111,15 @@ async function render() {
     <button data-bs-toggle="modal" data-bs-target="#editModal" class="btn-edit" onclick="editPost(${item.id})">edit</button>
     <button onclick="deleteProduct(${item.id})" class="btn-delete">delete</button>
     </div>
+    <div class="hurts">
+    <div class ="lik">
+    <img src="../img/hartAactive.png" alt="" class="hart" onclick="like()" style="width: 23px">
+    <p class="hurt-count">${likecouts}</p>
+    </div>
+    <div class="comm">
+    <img src="../img/comment.png" alt="" class="comment" onclick="comment()" style="width: 23px">
+    <p class="hurt-count">${addpost.length}</p>
+    </div>
     </div>
     </div>
     `;
@@ -176,7 +189,9 @@ searchUsers.addEventListener("input", () => {
   render();
 });
 
-// pagination
+
+
+// ! pagination
 // функция для отрисовки кнопок пагинации
 function drawPaginationButton() {
   // стягиваем все продукты для того что бы рассчитать общее количество стрвниц которое будет в пагинации
@@ -259,3 +274,10 @@ document.addEventListener("click", (e) => {
   }
 });
 // pagination
+
+
+async function like () {
+ 
+  likecouts += 1;
+  render()
+}

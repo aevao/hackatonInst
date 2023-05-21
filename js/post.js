@@ -192,10 +192,13 @@ function drawPaginationButton() {
       for (let i = 1; i <= pageTotalCount; i++) {
         if (curentPage == i) {
           let page = document.createElement("li");
+          page.classList.add("page_num");
           page.innerHTML = `<li class="page-item active"><a class="page-link page-number" href="#">${i}</a></li>`;
           paginationList.append(page);
         } else {
           let page = document.createElement("li");
+          page.classList.add("page_num");
+
           page.innerHTML = `
         <li class="page-item"><a class="page-link page-number" href="#">${i}</a></li>
           `;

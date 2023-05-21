@@ -223,6 +223,83 @@
       "password": "123",
       "password2": "123",
       "id": 35
+    },
+    {
+      "login": "aika",
+      "email": "gghf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 36
+    },
+    {
+      "login": "shadowfiend",
+      "email": "qwe@gmail.com",
+      "password": "shadowfiend",
+      "password2": "shadowfiend",
+      "id": 37
+    },
+    {
+      "login": "clement ",
+      "email": "fgjhd@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 38
+    },
+    {
+      "login": "diana",
+      "email": "hsjkdg@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 39
+    },
+    {
+      "login": "pango",
+      "email": "dfgjf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 40
+    },
+    {
+      "login": "ramil",
+      "email": "dfssssssgsshs@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 41
     }
-  ]
+  ],
+  "Post": [
+    {
+      "userName": "pango",
+      "title": "naruto",
+      "info": "nice",
+      "other": "but boruto wtf",
+      "image": "https://static.wikia.nocookie.net/naruto/images/d/dc/Naruto%27s_Sage_Mode.png/revision/latest?cb=20200402235918&path-prefix=ru",
+      "id": 10
+    },
+    {
+      "userName": "diana",
+      "title": "I'm so tired",
+      "info": "",
+      "other": "",
+      "image": "https://staticg.sportskeeda.com/editor/2022/08/f0c7a-16617573090253.png",
+      "id": 11
+    },
+    {
+      "userName": "samat",
+      "title": "Объясните чайнику что это такое буду очень благодарен ",
+      "info": ": )",
+      "other": "",
+      "image": "https://www.codereadability.com/content/images/2016/09/Screen-Shot-2016-09-27-at-17.52.03.png",
+      "id": 12
+    },
+    {
+      "userName": "ramil",
+      "title": "Собственно говоря я не знаю  как суда попал",
+      "info": "не местный я ! не местный ",
+      "other": "",
+      "image": "https://www.meme-arsenal.com/memes/efdb0cd9a9bd38e5769ed1e7b91deccb.jpg",
+      "id": 13
+    }
+  ],
+  "Comments": []
 }

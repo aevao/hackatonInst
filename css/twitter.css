@@ -141,12 +141,14 @@ input {
   border-bottom: 1px solid gray;
   display: flex;
   flex-direction: column;
-  margin-top: 2%;
+  /* margin-top: 13%; */
+
 }
 .user-info {
   display: flex;
-  width: 18%;
+  width: 25%;
   justify-content: space-between;
+  margin-top: 5%;
 }
 .post-title {
   font-size: 16px;
@@ -176,10 +178,11 @@ input {
 .post-options {
   display: flex;
   width: 100%;
+  justify-content: space-between;
 }
 .post-buttons {
   display: flex;
-  width: 25%;
+  width: 30%;
   justify-content: space-between;
   margin-top: 2%;
 }
@@ -272,7 +275,46 @@ input {
 }
 /* пагинация */
 
-@media (max-width: 1200px) {
+/* hurt */
+  /* Стили кнопки */
+ 
+  .hurts{
+    position: relative;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+  }
+  .hurt-count{
+    margin-top: 67%;
+
+  }
+.hart{
+  margin-top: 60%;
+}
+.comment{
+  margin-top: 60%;
+}
+.lik{
+  display: flex;
+}
+.comm{
+  display: flex;
+}
+
+@media (max-width: 1500px) {
+  .post-buttons {
+    width: 33%;
+  }
+  .user-info {
+    width: 30%;
+  }
+}
+@media (max-width: 1350px) {
+  .post-buttons {
+    width: 40%;
+  }
+}
+@media (max-width: 1150px) {
   .container {
     width: 80%;
   }
@@ -282,6 +324,12 @@ input {
     left: 10%;
   }
   .post {
+    width: 100%;
+  }
+  .pagination {
+    width: 35%;
+  }
+  .pagination-list {
     width: 100%;
   }
 }
@@ -297,15 +345,39 @@ input {
   }
   .post {
     width: 100%;
-    margin-top: 15%;
+    margin-top: 7%;
   }
   .user-info {
     width: 35%;
+    margin-top: 5%;
+  }
+  .pagination {
+    width: 40%;
+  }
+  .pagination-list {
+    width: 100%;
+  }
+  .post-buttons {
+    width: 20%;
   }
 
+  @media (max-width: 850px) {
+    .post-buttons {
+      width: 27%;
+    }
+  }
   @media (max-width: 700px) {
     .post-buttons {
       width: 30%;
+    }
+    .pagination {
+      width: 60%;
+    }
+    .pagination-list {
+      width: 100%;
+    }
+    .user-info {
+      width: 25%;
     }
   }
 }
@@ -313,6 +385,16 @@ input {
 @media (max-width: 600px) {
   .post-buttons {
     width: 35%;
+  }
+  .pagination {
+    width: 80%;
+  }
+  .pagination-list {
+    width: 100%;
+  }
+  .user-info {
+    
+    margin-top: 10%;
   }
 }
 
@@ -325,5 +407,26 @@ input {
 @media (max-width: 450px) {
   .post-buttons {
     width: 45%;
+  }
+  .user-info {
+    
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 390px) {
+  .post-buttons {
+    width: 55%;
+  }
+  .user-info {
+    
+    margin-top: 17%;
+  }
+}
+
+@media (max-width: 390px) {
+  .user-info {
+    
+    margin-top: 20%;
   }
 }

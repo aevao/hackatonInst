@@ -265,12 +265,19 @@
       "password": "123",
       "password2": "123",
       "id": 41
+    },
+    {
+      "login": "жиголо",
+      "email": "лохлох",
+      "password": "123",
+      "password2": "123",
+      "id": 42
     }
   ],
   "Post": [
     {
       "userName": "pango",
-      "title": "naruto",
+      "title": "narutobek",
       "info": "nice",
       "other": "but boruto wtf",
       "image": "https://static.wikia.nocookie.net/naruto/images/d/dc/Naruto%27s_Sage_Mode.png/revision/latest?cb=20200402235918&path-prefix=ru",
@@ -299,6 +306,22 @@
       "other": "",
       "image": "https://www.meme-arsenal.com/memes/efdb0cd9a9bd38e5769ed1e7b91deccb.jpg",
       "id": 13
+    },
+    {
+      "userName": "diana",
+      "title": "",
+      "info": "",
+      "other": "",
+      "image": "",
+      "id": 14
+    },
+    {
+      "userName": "жиголо",
+      "title": "Арс",
+      "info": "АРС",
+      "other": "АРС",
+      "image": "АРС",
+      "id": 15
     }
   ],
   "Comments": []

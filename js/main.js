@@ -14,6 +14,7 @@ signInBtn.addEventListener("click", () => {
   body.classList.remove("active");
 });
 
+// ! CRUD
 let signUpInpLogin = document.querySelector(".signup_inp_login");
 let signUpInpEmail = document.querySelector(".signup_inp_email");
 let signUpInpPassword = document.querySelector(".signup_inp_password");
@@ -30,11 +31,13 @@ signUpBtn2.addEventListener("click", () => {
     alert("Заполните поля");
     return;
   }
+
+  
   if (signUpInpPassword.value != signUpInpPassword2.value) {
     alert("пароли должны быть одинаковыми");
     return;
   }
-
+  checkUser()
   let newUser = {
     login: signUpInpLogin.value,
     email: signUpInpEmail.value,
@@ -84,6 +87,7 @@ async function checkUser() {
         userActive = true;
         return;
       }
+      
     });
     
     if (userActive) {
@@ -98,4 +102,9 @@ async function checkUser() {
     }
   }
   
-  
+function checkLogin() {
+  if(signUpInpLogin.value == item.login){
+    alert("Такой логин уже существует");
+    return
+  }
+}

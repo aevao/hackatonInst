@@ -170,3 +170,18 @@ body.active {
   border: none;
   border-bottom: 1px solid red;
 }
+
+@media (max-width: 600px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 400px;
+    height: 650px;
+    padding: 0;
+    
+  }
+  
+}
+
